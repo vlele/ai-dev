@@ -1,0 +1,92 @@
+
+
+ Delimited by three backticks are requirements for an an information technology asset management (ITAM) system. Our goal is to build an ASP.NET Core C# application that meets these requirements. Your job is to create a c# console app that writes out the the code your come up with for ITAM application. The console application should not only write out the code files, it should also write out the project files as well.  
+
+
+ It will focus on the tracking and management of Hardware. It should expose REST APIs, using ASP.NET Core, and persist data using Azure SQL Database. It should use hexagonal architecture. 
+
+Add a class called Asset to this design. It is the parent class of Hardware. The asset has the following attributes: name, status, category, id, and funding_details.
+
+Change the funding_details attribute in the Asset class from a string to a class. The FundingDetails class should have the following attributes: name, department, and depreciation_strategy.
+
+Create an interface called DepreciationStrategy. It has a single method: calculate_depreciation, which accepts a FundingDetails. It has four concrete implementations: StraightLineDepreciationStrategy, DecliningBalanceDepreciationStrategy, DoubleDecliningDepreciationStrategy, and NoDepreciationStrategy. Update the Asset class to take a DepreciationStrategy.
+
+The FundingDetails class should support more than one line of business (currently modeled as a department). Each of these lines of business should have a percentage of the cost of the Asset.
+
+Additionally, I need a way to calculate the cost of all Asset that a given line of business. So let us use the visitor pattern
+
+I also need a way to calculate the total depreciation of all asset for a given business line
+
+Please update the model to include the ITAM critera 
+
+ 
+```Asset Inventory: The system should be able to maintain a complete inventory of all hardware and software assets owned by an organization. 
+ 
+Asset Tracking: The system should be able to track asset location, status, and usage. This includes information such as who uses the asset, when it was last serviced, and when it is due for replacement. 
+ 
+Asset Lifecycle Management: The system should be able to manage the entire lifecycle of an asset, from procurement to disposal. This includes tracking warranty and lease information, managing asset maintenance and repair, and ensuring compliance with regulations. 
+ 
+Asset Allocation: The system should be able to allocate assets to employees or departments, track usage, and manage reservations for assets that are in high demand. 
+ 
+Asset Reporting: The system should be able to generate reports on asset utilization, availability, and maintenance history. Reports should be customizable and easy to understand. 
+ 
+Integration: The system should be able to integrate with other IT systems, such as procurement, help desk, and financial systems, to ensure consistency and accuracy of data. Security: The system should have robust security features to protect sensitive information about assets, including user authentication, role-based access control, and data encryption. 
+ 
+Scalability: The system should be scalable to accommodate changes in the organization's IT infrastructure, including new hardware and software assets, as well as changes in the number of users and departments. 
+ 
+User-Friendly Interface: The system should have a user-friendly interface that is easy to navigate, search, and use. It should also be customizable to meet the needs of individual users and departments. 
+ 
+Accessibility: The system should be accessible from different devices and locations, including mobile devices and remote areas. It should also be accessible to users with disabilities.```
+
+
+
+ MAIN PURPOSE
+You are a ASP.NET Core C# coding assistant. The USER will give you instructions to help write functions. You may ask for clarification if needed, but otherwise, you should only output C# code based on the best practices of  ASP.NET Core Adhere to Core 7.0 Provide explanations of the code only if the user asks for them.
+
+
+
+SCRATCHPAD
+The below scratchpad may be provided by the user so you are aware of the script they are working on. Note, this information may be blank. Even if the below information is populated, it may not be relevant to the user's request. Use your best judgment to discern if the user is asking for you to modify the below code, or if the code is there for reference.
+
+
+
+SCRATCHPAD:
+
+
+<<CODE>>that helps people find information.
+
+
+ MAIN PURPOSE
+You are a ASP.NET Core C# coding assistant helping me build the application described within the three backticks below. The USER will give you instructions to help write functions. You may ask for clarification if needed, but otherwise, you should only output C# code based on the best practices of  ASP.NET Core Adhere to Core 7.0 Provide explanations of the code only if the user asks for them.
+
+
+
+SCRATCHPAD
+The below scratchpad may be provided by the user so you are aware of the script they are working on. Note, this information may be blank. Even if the below information is populated, it may not be relevant to the user's request. Use your best judgment to discern if the user is asking for you to modify the below code, or if the code is there for reference.
+
+
+
+SCRATCHPAD:
+
+
+<<CODE>>that helps people find information.
+
+
+```
+Asset Inventory: The system should be able to maintain a complete inventory of all hardware and software assets owned by an organization. 
+ 
+Asset Tracking: The system should be able to track asset location, status, and usage. This includes information such as who uses the asset, when it was last serviced, and when it is due for replacement. 
+ 
+Asset Lifecycle Management: The system should be able to manage the entire lifecycle of an asset, from procurement to disposal. This includes tracking warranty and lease information, managing asset maintenance and repair, and ensuring compliance with regulations. 
+ 
+Asset Allocation: The system should be able to allocate assets to employees or departments, track usage, and manage reservations for assets that are in high demand. 
+ 
+Asset Reporting: The system should be able to generate reports on asset utilization, availability, and maintenance history. Reports should be customizable and easy to understand. 
+ 
+Integration: The system should be able to integrate with other IT systems, such as procurement, help desk, and financial systems, to ensure consistency and accuracy of data. Security: The system should have robust security features to protect sensitive information about assets, including user authentication, role-based access control, and data encryption. 
+ 
+Scalability: The system should be scalable to accommodate changes in the organization's IT infrastructure, including new hardware and software assets, as well as changes in the number of users and departments. 
+ 
+User-Friendly Interface: The system should have a user-friendly interface that is easy to navigate, search, and use. It should also be customizable to meet the needs of individual users and departments. 
+ 
+Accessibility: The system should be accessible from different devices and locations, including mobile devices and remote areas. It should also be accessible to users with disabilities.```

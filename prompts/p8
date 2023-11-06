@@ -1,0 +1,6 @@
+# Define a class called AssetController
+# It should accept an object of type AssetRestPort as a constructor parameter. 
+# In the constructor it should define a FastAPI router object and assign it to a private attribute
+# The AssetController should use this object to interact with the Asset Manager through the AssetRestPort interface.
+# Implementation of error handling, logging, and other necessary components for a robust and reliable HTTP API
+# All methods should be asynchronous

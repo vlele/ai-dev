@@ -3,7 +3,7 @@
  Delimited by three backticks are requirements for an an information technology asset management (ITAM) system. 
 
 Please come up with mermaid based model to show the high level subsystems with the ITAM system based requirements included in the three backticks.
-
+Also come up with a domain model with suggested classes using a mermaid diagram
  
 ```Asset Inventory: The system should be able to maintain a complete inventory of all hardware and software assets owned by an organization. 
  

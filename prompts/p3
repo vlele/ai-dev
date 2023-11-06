@@ -1,0 +1,13 @@
+# Define a class named Asset  
+# It should have the following attributes:   
+# - id: int  
+# - name: str  
+# - status: str  
+# - category: str  
+# - cost: float  
+# - useful_life: float  
+# - salvage_value: float  
+# - purchase_date: datetime  
+#   
+# The attributes cannot be None and cannot be added after construction  
+# However, we should be able to access the attributes using methods

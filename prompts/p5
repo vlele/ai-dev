@@ -1,0 +1,8 @@
+# Define a class called FundingDetails
+# It should have the following attributes: 
+# - asset: Asset
+# - depreciation_strategy: DepreciationStrategy,
+# - depreciation_rate: float
+# - department_allocations: Dict[Department, float]
+# The attributes cannot be None and cannot be modified after construction
+# However, we should be able to access the attributes using methods

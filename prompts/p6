@@ -1,0 +1,10 @@
+# Define an interface called DepreciationStrategy. 
+# It should have four concrete implementations of the interface: StraightLineDepreciationStrategy, DecliningBalanceDepreciationStrategy, DoubleDecliningDepreciationStrategy, and NoDepreciationStrategy.
+# Each implementation overrides the calculate_depreciation() method to provide a specific way of calculating depreciation for an asset based on its funding details.
+# The calculate_depreciation() method should take a FundingDetails object as a parameter and return a float value representing the depreciation amount.
+
+
+# Define an interface called DepreciationStrategy.   
+# It should have four concrete implementations of the interface: StraightLineDepreciationStrategy, DecliningBalanceDepreciationStrategy, DoubleDecliningDepreciationStrategy, and NoDepreciationStrategy.  
+# Each implementation overrides the calculate_depreciation() method to provide a specific way of calculating depreciation for an asset based on its funding details.  
+# The calculate_depreciation() method should take a FundingDetails object as a parameter and return a float value representing the depreciation amount.  

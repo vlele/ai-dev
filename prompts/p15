@@ -1,1 +1,0 @@
-Generate a bicep template for the code above. Make sure you use the cheapest App Service PLan for Linux given that this is all experimental code. Don't include Docker Definitions

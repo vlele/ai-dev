@@ -1,8 +1,0 @@
-# Please don't offer commentary for the code you generate.
-# Define an interface called DepreciationStrategy. 
-# It should have four concrete implementations of the interface: StraightLineDepreciationStrategy, DecliningBalanceDepreciationStrategy, DoubleDecliningDepreciationStrategy, and NoDepreciationStrategy.
-# Each implementation overrides the calculate_depreciation() method to provide a specific way of calculating depreciation for an asset based on its funding details.
-# The calculate_depreciation() method should take a FundingDetails object as a parameter and return a float value representing the depreciation amount.
-Add a return statement or throw an not implemented exception so I dont' get the compilatio errors 
-Severity	Code	Description	Project	File	Line	Suppression State
-Error	CS0161	'DecliningBalanceDepreciationStrategy.CalculateDepreciation(FundingDetails)': not all code paths return a value	Demo1	

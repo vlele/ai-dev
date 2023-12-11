@@ -1,5 +1,0 @@
-#Please don't offer commentary for the code you generate.
-#Make sure you use the classes you already know about like Asset and AssetFactory 
-#Define a ASP.NET controlled  AssetController
-# Use the AssetFactory for CRUD operations inside the AssetController
-# All methods should be asynchronous

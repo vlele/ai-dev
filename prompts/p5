@@ -1,7 +1,0 @@
-# Please don't offer commentary for the code you generate.
-# Define a class called FundingDetails
-# It should have the following attributes: 
-# - asset: Asset
-# - depreciation_strategy: DepreciationStrategy,
-# - depreciation_rate: float
-# - department_allocations: Dict[Department, float]

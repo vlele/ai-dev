@@ -1,1 +1,0 @@
-We have a class called AssetService.Every time we get a new asset added, can you add code to send a message to the Azure Service Bus Topic

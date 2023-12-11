@@ -1,0 +1,16 @@
+@workspace use the classes already defined
+
+Define a class named Asset inside ITAM.Model namespace
+It should have the following attributes.
+Please ensure that you use nullable reference types to ensure that ensure that the properties are initiatized correctly.
+- id: int
+- name: str nullable
+- status: str nullable
+- category: str nullable
+- cost: decimal
+- useful_life: decimal
+- salvage_value: decimal
+- purchase_date: datetime nullable
+- public decimal DepreciationAmount
+- public decimal AllocationAmount
+- public FundingDetails FundingDetails nullable

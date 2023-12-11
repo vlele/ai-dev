@@ -1,0 +1,2 @@
+Cntrl Shift P >net Build 
+dotnet run --launch-profile https

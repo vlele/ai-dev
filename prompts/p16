@@ -1,0 +1,22 @@
+Here are some requirements for the software I am building. PLease understand them and wait for me to ask questions.
+
+**ITAM System Requirements**:
+Design and implement an ITAM system using ASP.NET Core, C#, and WebAPI that includes the following features:
+- **Asset Inventory**: Maintain a comprehensive inventory of all IT assets.
+- **Asset Tracking**: Monitor asset location, status, and usage.
+- **Asset Lifecycle Management**: Oversee the entire lifecycle from procurement to disposal.
+- **Asset Allocation**: Allocate and track assets across employees or departments.
+- **Asset Reporting**: Generate customizable reports on asset metrics.
+- **Integration**: Ensure seamless integration with other IT systems.
+- **Security**: Implement robust security measures to protect asset data.
+- **Scalability**: Design the system to easily adapt to changing IT infrastructure.
+- **User Interface**: Create a user-friendly and customizable interface.
+- **Accessibility**: Ensure system accessibility on various devices and for users with disabilities.
+
+
+Please come up with a mermaid-based model to show the high-level subsystems with the ITAM system-based requirements included in the three backticks.
+Also, come up with a domain model for the asset inventory, including a sampling of classes using a mermaid-based class diagram.
+
+Generate a bicep template for the code above. Make sure you use the cheapest App Service PLan for Linux given that this is all experimental code. 
+
+We have a class called AssetService.Every time we get a new asset added, can you add code to send a message to the Azure Service Bus Topic

@@ -1,0 +1,32 @@
+@workspace DepreciationStrategy and DepreciationRate are not properties of the Asset class. They are part of FundingDetails type. You will need to take that into account 
+
+ FundingDetails = new FundingDetails
+               {
+                    DepreciationStrategy = depreciationStrategy,
+                    DepreciationRate = depreciationRate,
+                },
+
+
+
+               return new HardwareAssetFactory().New(_nextId++, assetName, assetCost, usefulLife, strategy, depreciationRate, salvageValue, assetPurchaseDate);
+
+
+                if (assetType == "hardware")
+{
+    var fundingDetails = new FundingDetails
+    {
+        DepreciationStrategy = strategy,
+        DepreciationRate = depreciationRate,
+        Asset = new Asset
+        {
+            Id = _nextId++,
+            Name = assetName,
+            Cost = assetCost,
+            UsefulLife = usefulLife,
+            SalvageValue = salvageValue,
+            PurchaseDate = DateTime.Parse(assetPurchaseDate),
+        }
+    };
+
+    return new HardwareAssetFactory().New(fundingDetails);
+}

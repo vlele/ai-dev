@@ -2,49 +2,7 @@
 
 
 
+Based on the ASP.NET COre best practices (please browse this site https://learn.microsoft.com/en-us/aspnet/core/fundamentals/best-practices?view=aspnetcore-7.0 if you need to)develop a folder structure for ths source code
 
-Can you also print a proposed folder structure
 
-ITAMSystem/  
-│  
-├── src/  
-│   ├── ITAMSystem/  
-│   │   ├── Controllers/  
-│   │   │   ├── AssetController.cs  
-│   │   │   ├── UserController.cs  
-│   │   │   └── DepartmentController.cs  
-│   │   │  
-│   │   ├── Models/  
-│   │   │   ├── Asset.cs  
-│   │   │   ├── AssetType.cs  
-│   │   │   ├── User.cs  
-│   │   │   ├── Role.cs  
-│   │   │   └── Department.cs  
-│   │   │  
-│   │   ├── Services/  
-│   │   │   ├── AssetService.cs  
-│   │   │   ├── UserService.cs  
-│   │   │   └── DepartmentService.cs  
-│   │   │  
-│   │   ├── Data/  
-│   │   │   ├── ITAMDbContext.cs  
-│   │   │   └── Migrations/  
-│   │   │  
-│   │   ├── Views/  
-│   │   │   ├── Assets/  
-│   │   │   ├── Users/  
-│   │   │   └── Departments/  
-│   │   │  
-│   │   ├── wwwroot/  
-│   │   │   ├── css/  
-│   │   │   ├── js/  
-│   │   │   └── images/  
-│   │   │  
-│   │   └── Startup.cs  
-│   │  
-│   └── ITAMSystem.Tests/  
-│       ├── AssetTests.cs  
-│       ├── UserTests.cs  
-│       └── DepartmentTests.cs  
-│  
-└── README.md  
+ 

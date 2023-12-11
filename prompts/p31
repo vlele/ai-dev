@@ -1,0 +1,9 @@
+ FundingDetails.cs
+ 
+ public interface IDepreciationStrategy { }
+
+
+ public Dictionary<Department, decimal> DepartmentAllocations { get; set; }
+
+
+     return asset.Cost * (decimal)Math.Pow((1 - fundingDetails.DepreciationRate / 100), yearsSincePurchase);

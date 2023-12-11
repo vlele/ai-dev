@@ -90,3 +90,13 @@ Scalability: The system should be scalable to accommodate changes in the organiz
 User-Friendly Interface: The system should have a user-friendly interface that is easy to navigate, search, and use. It should also be customizable to meet the needs of individual users and departments. 
  
 Accessibility: The system should be accessible from different devices and locations, including mobile devices and remote areas. It should also be accessible to users with disabilities.```
+{  
+  "Id": 2,  
+  "Name": "Office Chair",  
+  "Status": "Available",  
+  "Category": "Furniture",  
+  "Cost": 150.0,  
+  "UsefulLife": 7.0,  
+  "SalvageValue": 30.0,  
+  "PurchaseDate": "2022-02-10"  
+}  

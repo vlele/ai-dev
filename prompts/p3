@@ -1,5 +1,6 @@
+# Please don't offer commentary for the code you generate.
 # Define a class named Asset  
-# It should have the following attributes:   
+# It should have the following attributes. Please ensure apprproiate validation can be performed using required and nullable attributes
 # - id: int  
 # - name: str  
 # - status: str  
@@ -7,7 +8,10 @@
 # - cost: float  
 # - useful_life: float  
 # - salvage_value: float  
-# - purchase_date: datetime  
-#   
-# The attributes cannot be None and cannot be added after construction  
-# However, we should be able to access the attributes using methods
+# - purchase_date: datetime 
+# - public decimal DepreciationAmount 
+# - public decimal AllocationAmount 
+
+# This class represents an asset with various attributes such as id, name, status, category, cost, useful life, salvage value, purchase date, depreciation amount, and allocation amount.
+
+

@@ -1,0 +1,18 @@
+@workspace Using the Demo9.Model.Asset class create an AssetFactory class that instantiates a new Asset. Make sure that the CreateAsset method takes Demo9.Model.Asset as a parameter
+
+
+#Please don't offer commentary for the code you generate
+# Using the Factory patternm create factory for creating assets as described below. Remember that we have already created IDepreciationStrategy, StraightLineDepreciationStrategy, DoubleDecliningDepreciationStrategy ,  NoDepreciationStrategy , DecliningBalanceDepreciationStrategy 
+
+Make sure you look at the Asset class to generate the AssetFactory methods including the constructor
+
+# Define a class called AssetFactory
+# It should have the following methods:
+#        +new(self, asset_type: str, asset_name: str, asset_cost: float, useful_life: int, depreciation_strategy: str, depreciation_rate: float, salvage_value: float, asset_purchase_date: str) -> Asset
+# When asset_type is equal to "hardware" it should delegate the call to a class called HardwareAssetFactory
+# If it is neither "hardware" nor "software" it should raise a ValueError
+# When depreciation_strategy is equal to "straight_line" it should return a new instance of StraightLineDepreciationStrategy
+# When depreciation_strategy is equal to "double_declining_balance" it should return a new instance of DoubleDecliningDepreciationStrategy
+# When depreciation_strategy is equal to "none" it should return a new instance of NoDepreciationStrategy
+# When depreciation_strategy is equal to "declining_balance" it should return a new instance of DecliningBalanceDepreciationStrategy
+# The HardwareAssetFactory should get the id from the AssetFactory on each call to new.

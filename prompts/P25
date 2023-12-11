@@ -1,0 +1,13 @@
+@workspace
+# Using the Factory pattern to create factory for creating assets as described below inside ITAM.Factory namespace
+
+# Define a class called AssetFactory
+# It should have the following methods:
+#        +new(self, asset_type: str, asset_name: str, asset_cost: decimal, useful_life: int, depreciation_strategy: str, depreciation_rate: decimal, salvage_value: decimal, asset_purchase_date: str) -> Asset
+# When asset_type is equal to "hardware" it should delegate the call to a class called HardwareAssetFactory
+# If it is neither "hardware" nor "software" it should raise a ValueError
+# When depreciation_strategy is equal to "straight_line" it should return a new instance of StraightLineDepreciationStrategy
+# When depreciation_strategy is equal to "double_declining_balance" it should return a new instance of DoubleDecliningDepreciationStrategy
+# When depreciation_strategy is equal to "none" it should return a new instance of NoDepreciationStrategy
+# When depreciation_strategy is equal to "declining_balance" it should return a new instance of DecliningBalanceDepreciationStrategy
+# The HardwareAssetFactory should get the id from the AssetFactory on each call to new.

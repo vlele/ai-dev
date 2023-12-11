@@ -1,0 +1,1 @@
+We have a class called AssetService. Create a BDD script that will add two Assets to the AssetManager, confirming that all Assets cost $4000.00.  Take it step by step, telling us the tools and libraries you will use.

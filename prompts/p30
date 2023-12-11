@@ -1,0 +1,3 @@
+@workspace Fix the following line of code - Irealize I am mixing types
+
+            return asset.Cost * (decimal)Math.Pow((1 - fundingDetails.DepreciationRate / 100), currentYear - purchaseYear);

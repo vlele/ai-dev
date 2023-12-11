@@ -1,0 +1,9 @@
+@workspace
+# Define a class called FundingDetails inside ITAM.Model namespace 
+# It should have the following attributes: 
+# Please ensure apprproiate data validation can be performed by adding attributes such as "required" and "nullable" attributes
+
+# - asset: Asset
+# - depreciation_strategy: IDepreciationStrategy nullable,
+# - depreciation_rate: decimal
+# - department_allocations: Dict[Department, decimal]

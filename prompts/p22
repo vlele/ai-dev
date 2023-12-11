@@ -1,0 +1,18 @@
+@workspace 
+# Define Hardware class, which is an child of the Asset class inside ITAM.Model namespace 
+# It should have the following attributes. 
+# Please ensure apprproiate data validation can be performed by adding attributes such as "required" and "nullable" attributes
+#To avoid under posting please ensure that string properties are nullable
+
+# The Hardware entity has the following attributes:  
+# - serial_number: str nullable,  
+# - location: Location  nullable,  
+# - warranty_expiration_date: date nullable,  
+# - notes: str  nullable,  
+# - maintenance_schedules: List [MaintenanceSchedule]  nullable
+# - warranty: Warranty  nullable
+# - retirement_date: date  
+# - retirement_reason: str  nullable
+# - usage_statistics: UsageStatistics nullable 
+# - budget: Budget  nullable
+#Generate placeholder class definitions for  Location, MaintenanceSchedule, Warranty, UsageStatistics, and Budget classes

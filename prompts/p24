@@ -1,0 +1,11 @@
+@workspace
+# Define a class called DepreciationStrategy inside ITAM.Model namespace 
+# Define an interface called DepreciationStrategy. 
+# It should have four concrete implementations of the interface: StraightLineDepreciationStrategy, DecliningBalanceDepreciationStrategy, DoubleDecliningDepreciationStrategy, and NoDepreciationStrategy.
+# Each implementation overrides the calculate_depreciation() method to provide a specific way of calculating depreciation for an asset based on its funding details.
+# The calculate_depreciation() method should take a FundingDetails object as a parameter and return a decimal oat value representing the depreciation amount.
+# NoDepreciationStrategy should return 0 for all assets.
+# The other three strategies should return the depreciation amount based on the following formulas:
+# - Straight Line: (cost - salvage value) / useful_life
+# - Declining Balance: cost * (1-rate/100)^(current_year - purchase_year)
+# - Double Declining: Declining Balance * 2
